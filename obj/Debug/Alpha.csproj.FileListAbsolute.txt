@@ -10,3 +10,6 @@ D:\Files\h4x\PoE\ExileApi-3.17.9\Plugins\Alpha\obj\Debug\Alpha.csproj.AssemblyRe
 D:\Files\h4x\PoE\ExileApi-3.17.9\Plugins\Alpha\obj\Debug\Alpha.csproj.CoreCompileInputs.cache
 D:\Files\h4x\PoE\ExileApi-3.17.9\Plugins\Alpha\obj\Debug\Alpha.dll
 D:\Files\h4x\PoE\ExileApi-3.17.9\Plugins\Alpha\obj\Debug\Alpha.pdb
+D:\Files\h4x\PoE\PoeHelper\Plugins\Compiled\Alpha\Alpha.dll
+D:\Files\h4x\PoE\PoeHelper\Plugins\Compiled\Alpha\Alpha.pdb
+D:\Files\h4x\PoE\ExileApi-3.17.9\Plugins\Alpha\obj\Debug\Alpha.csproj.CopyComplete

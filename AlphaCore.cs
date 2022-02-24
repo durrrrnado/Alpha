@@ -546,7 +546,7 @@ namespace Alpha
 				}
 			var dist = _tasks.Count > 0 ? Vector3.Distance(GameController.Player.Pos, _tasks.First().WorldPosition): 0;
 			var targetDist = _lastTargetPosition == null ? "NA" : Vector3.Distance(GameController.Player.Pos, _lastTargetPosition).ToString();
-			Graphics.DrawText($"Follow Enabled: {Settings.IsFollowEnabled.Value}", new Vector2(500, 120));
+			Graphics.DrawText($"Follow Enabled: {Settings.IsFollowEnabled.Value}", new Vector2(900, 420));
 			//added Take Waypoints checker, similar to copilot logic
 			Graphics.DrawText($"Take Waypoints: {Settings.IsToggleWaypointsEnabled.Value}", new Vector2(520, 120));
 			Graphics.DrawText($"Task Count: {_tasks.Count} Next WP Distance: {dist} Target Distance: {targetDist}", new Vector2(500, 140));
