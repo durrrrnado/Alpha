@@ -6,3 +6,7 @@ C:\Users\Chris\Documents\GitHub\Exile\ExileApi\Plugins\Alpha\obj\Debug\Alpha.pdb
 C:\Users\Chris\Documents\GitHub\Exile\PoeHelper\Plugins\Compiled\Alpha\Alpha.dll
 C:\Users\Chris\Documents\GitHub\Exile\PoeHelper\Plugins\Compiled\Alpha\Alpha.pdb
 C:\Users\Chris\Documents\GitHub\Exile\ExileApi\Plugins\Alpha\obj\Debug\Alpha.csproj.CopyComplete
+D:\Files\h4x\PoE\ExileApi-3.17.9\Plugins\Alpha\obj\Debug\Alpha.csproj.AssemblyReference.cache
+D:\Files\h4x\PoE\ExileApi-3.17.9\Plugins\Alpha\obj\Debug\Alpha.csproj.CoreCompileInputs.cache
+D:\Files\h4x\PoE\ExileApi-3.17.9\Plugins\Alpha\obj\Debug\Alpha.dll
+D:\Files\h4x\PoE\ExileApi-3.17.9\Plugins\Alpha\obj\Debug\Alpha.pdb

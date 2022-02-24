@@ -20,6 +20,8 @@ namespace Alpha
 		[Menu("Allow Dash")] public ToggleNode IsDashEnabled { get; set; } = new ToggleNode(true);
 		[Menu("Dash Key")] public HotkeyNode DashKey { get; set; } = Keys.W;
 		[Menu("Follow Close")] public ToggleNode IsCloseFollowEnabled { get; set; } = new ToggleNode(false);
+		//added toggle waypoints from CoPilot logic
+		[Menu("Toggle Waypoints")] public ToggleNode IsToggleWaypointsEnabled { get; set; } = new ToggleNode(true);
 
 	}
 }

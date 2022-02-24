@@ -247,7 +247,7 @@ namespace Alpha
 						_tasks.FirstOrDefault(I => I.Type == TaskNodeType.Loot) == null)
 						_tasks.Add(new TaskNode(questLoot.Pos, Settings.ClearPathDistance, TaskNodeType.Loot));
 
-					else if (!_hasUsedWP)
+					else if (!_hasUsedWP && Settings.IsToggleWaypointsEnabled.Value)
 					{
 						//Check if there's a waypoint nearby
 						var waypoint = GameController.EntityListWrapper.Entities.SingleOrDefault(I => I.Type == ExileCore.Shared.Enums.EntityType.Waypoint &&
@@ -547,6 +547,8 @@ namespace Alpha
 			var dist = _tasks.Count > 0 ? Vector3.Distance(GameController.Player.Pos, _tasks.First().WorldPosition): 0;
 			var targetDist = _lastTargetPosition == null ? "NA" : Vector3.Distance(GameController.Player.Pos, _lastTargetPosition).ToString();
 			Graphics.DrawText($"Follow Enabled: {Settings.IsFollowEnabled.Value}", new Vector2(500, 120));
+			//added Take Waypoints checker, similar to copilot logic
+			Graphics.DrawText($"Take Waypoints: {Settings.IsToggleWaypointsEnabled.Value}", new Vector2(520, 120));
 			Graphics.DrawText($"Task Count: {_tasks.Count} Next WP Distance: {dist} Target Distance: {targetDist}", new Vector2(500, 140));
 			var counter = 0;
 			foreach (var transition in _areaTransitions)
